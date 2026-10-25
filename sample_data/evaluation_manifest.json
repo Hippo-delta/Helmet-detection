@@ -1,0 +1,30 @@
+[
+  {
+    "filename": "sample_data/helmet1.jpg",
+    "ground_truth": "HELMET DETECTED",
+    "category": "Rider wearing helmet",
+    "is_synthetic": false,
+    "description": "Real test image with helmeted rider."
+  },
+  {
+    "filename": "sample_data/No helmet1.jpg",
+    "ground_truth": "NO HELMET DETECTED",
+    "category": "Rider without helmet",
+    "is_synthetic": false,
+    "description": "Real test image with unhelmeted rider."
+  },
+  {
+    "filename": "sample_data/Empty road.jpg",
+    "ground_truth": "UNCERTAIN / RIDER NOT VISIBLE",
+    "category": "No rider present",
+    "is_synthetic": false,
+    "description": "Real test image of an empty road scene with no rider to assess."
+  },
+  {
+    "filename": "sample_data/test_synthetic.jpg",
+    "ground_truth": "UNCERTAIN / RIDER NOT VISIBLE",
+    "category": "No rider present (Synthetic Calibration Frame)",
+    "is_synthetic": true,
+    "description": "Synthetic black calibration frame."
+  }
+]

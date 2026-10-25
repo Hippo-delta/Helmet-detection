@@ -1,0 +1,8 @@
+# Core Computer Vision & Deep Learning Dependencies
+# Vishwakarma Awards - Bolt AI Helmet Detection Prototype
+# Python 3.13+ compatible dependencies
+
+opencv-python>=4.8.0
+ultralytics>=8.2.0
+huggingface_hub>=0.20.0
+pytest>=7.4.0

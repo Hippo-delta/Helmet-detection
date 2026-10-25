@@ -218,3 +218,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Bolt Helmet Detection - Generated evaluation run outputs
+sample_data/evaluation_results/
